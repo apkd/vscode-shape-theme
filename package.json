@@ -1,0 +1,41 @@
+{
+    "name": "shape-theme",
+    "displayName": "Shape Theme",
+    "description": "A minimal theme with the goal of maximizing readability. The code structure is outlined with a simple set of vibrant colors.",
+    "version": "1.0.0",
+    "publisher": "apk",
+    "license": "MIT",
+    "icon": "images/icon.png",
+    "preview": true,
+    "qna":"https://github.com/apkd/vscode-shape-theme/issues",
+    "author": {
+        "name": "apk"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/apkd/vscode-shape-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/apkd/vscode-shape-theme/issues"
+    },
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shape",
+                "uiTheme": "vs-dark",
+                "path": "./themes/shape.json"
+            },
+            {
+                "label": "Shape (non-italic)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/shape-nonitalic.json"
+            }
+        ]
+    }
+}
