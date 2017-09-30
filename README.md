@@ -18,5 +18,8 @@ Inspired by the [NightOwl2](https://studiostyl.es/schemes/nightowl2) theme (my a
 
 ## Additional notes ##
 
-* Recommended font: [Fira Code with ligatures](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
+* Recommended fonts:
+    - [Monoid with ligatures](http://larsenwork.com/monoid/)
+    - [Fira Code with ligatures](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
+    - [Operator Mono (non-free)](https://www.typography.com/fonts/operator/overview/)
 * The theme has a variant with italics - works great with Operator Mono
