@@ -1,7 +1,7 @@
 {
     "name": "shape-theme",
     "displayName": "Shape Theme",
-    "description": "A minimal theme with the goal of maximizing readability. The code structure is outlined with a simple set of vibrant colors.",
+    "description": "A minimalistic theme designed with the goal of increased readability and reduced visual clutter. The code structure is outlined with a simple set of vibrant colors.",
     "version": "1.0.0",
     "publisher": "apk",
     "license": "MIT",
