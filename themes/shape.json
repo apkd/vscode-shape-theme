@@ -111,7 +111,6 @@
 				"meta.tag",
 				"entity.name",
 				"entity.name.function",
-				"entity.name.module.js",
 				"entity.name.tag",
 				"keyword.other.special-method",
 				"markup.deleted.git_gutter",
@@ -123,9 +122,7 @@
 				"support.variable.property.dom",
 				"variable",
 				"variable.function",
-				"variable.import.parameter.js",
 				"variable.language",
-				"variable.other.class.js",
 				"variable.parameter",
 				"entity.name.type.namespace",
 				"meta.block",
@@ -143,11 +140,8 @@
 				"keyword",
 				"storage",
 				"storage.type.function",
-				"storage.type.js",
 				"storage.type",
 				"storage.type.type",
-				"string.regexp punctuation.definition.string.begin.js",
-				"string.regexp punctuation.definition.string.end.js",
 				"storage.modifier",
 				"meta.type.declaration",
 				"keyword.operator.new",
@@ -205,8 +199,7 @@
 				"entity.name.type",
 				"support.type",
 				"support.class",
-				"support.function.attribute",
-				"new.expr.js entity.name.type.js"
+				"support.function.attribute"
 			],
 			"settings": {
 				"foreground": "#FFCB6B",
@@ -219,7 +212,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#49F3C3"
 			}
 		},
 		{
@@ -237,7 +230,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#fffeca"
 			}
 		},
 		{
@@ -260,7 +253,7 @@
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#cd9731"
+				"foreground": "#FFEFC4"
 			}
 		},
 		{
@@ -749,7 +742,11 @@
 		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
-			"scope": [],
+			"scope": [
+				"storage.type.js",
+				"string.regexp punctuation.definition.string.begin.js",
+				"string.regexp punctuation.definition.string.end.js",=
+			],
 			"settings": {
 				"foreground": "#FF6E89",
 				"fontStyle": "italic"
@@ -759,6 +756,7 @@
 			"name": "concrete types",
 			"scope": [
 				"source.js support.variable.object"
+				"new.expr.js entity.name.type.js"
 			],
 			"settings": {
 				"foreground": "#FFCB6B",
@@ -775,7 +773,61 @@
 		},
 		{
 			"name": "statements",
-			"scope": ["source.js support.variable.property","source.js variable.other.object"],
+			"scope": [
+				"source.js support.variable.property",
+				"source.js variable.other.object",
+				"entity.name.module.js",
+				"variable.import.parameter.js",
+				"variable.other.class.js"
+			],
+			"settings": {
+				"foreground": "#49F3C3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "content",
+			"scope": [],
+			"settings": {
+				"foreground": "#fffeca",
+				"fontStyle": ""
+			}
+		},
+		////////////////////////////////////////////////////////////////
+		// typescript
+		// todo: move ts-related rules to this section
+		////////////////////////////////////////////////////////////////
+		{
+			"name": "keywords",
+			"scope": [
+				"source.ts keyword.operator.expression"
+			],
+			"settings": {
+				"foreground": "#FF6E89",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "concrete types",
+			"scope": [
+				"source.ts entity.name.type.module"
+			],
+			"settings": {
+				"foreground": "#FFCB6B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope": [],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "statements",
+			"scope": [],
 			"settings": {
 				"foreground": "#49F3C3",
 				"fontStyle": ""
