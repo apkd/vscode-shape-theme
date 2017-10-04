@@ -745,7 +745,7 @@
 			"scope": [
 				"storage.type.js",
 				"string.regexp punctuation.definition.string.begin.js",
-				"string.regexp punctuation.definition.string.end.js",=
+				"string.regexp punctuation.definition.string.end.js"
 			],
 			"settings": {
 				"foreground": "#FF6E89",
@@ -755,7 +755,7 @@
 		{
 			"name": "concrete types",
 			"scope": [
-				"source.js support.variable.object"
+				"source.js support.variable.object",
 				"new.expr.js entity.name.type.js"
 			],
 			"settings": {
@@ -827,7 +827,9 @@
 		},
 		{
 			"name": "statements",
-			"scope": [],
+			"scope": [
+				"support.variable.property.ts"
+			],
 			"settings": {
 				"foreground": "#49F3C3",
 				"fontStyle": ""
