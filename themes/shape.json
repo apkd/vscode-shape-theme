@@ -3,6 +3,7 @@
 	"type": "dark",
 	"colors": {
 		"editor.foreground": "#fffeca",
+		"editor.background": "#192434",
 		"activityBar.background": "#131c28",
 		"activityBar.foreground": "#fff",
 		"activityBarBadge.background": "#ffffff99",
@@ -12,7 +13,6 @@
 		"dropdown.background": "#1d1f23",
 		"diffEditor.insertedTextBackground": "#00809B33",
 		"dropdown.border": "#131c28",
-		"editor.background": "#192434",
 		"editor.lineHighlightBackground": "#161f2c",
 		"editor.selectionBackground": "#42557B",
 		"editorCursor.foreground": "#F8FAFD",
@@ -395,7 +395,7 @@
 			}
 		},
 		////////////////////////////////////////////////////////////////
-		// xml
+		// shell
 		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
@@ -800,7 +800,8 @@
 		{
 			"name": "keywords",
 			"scope": [
-				"source.ts keyword.operator.expression"
+				"source.ts keyword.operator.expression",
+				"source.ts variable.language.this"
 			],
 			"settings": {
 				"foreground": "#FF6E89",
@@ -830,6 +831,49 @@
 			"scope": [
 				"support.variable.property.ts"
 			],
+			"settings": {
+				"foreground": "#49F3C3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "content",
+			"scope": [],
+			"settings": {
+				"foreground": "#fffeca",
+				"fontStyle": ""
+			}
+		},
+		////////////////////////////////////////////////////////////////
+		// f#
+		////////////////////////////////////////////////////////////////
+		{
+			"name": "keywords",
+			"scope": ["constant.language.unit.fsharp"],
+			"settings": {
+				"foreground": "#FF6E89",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "concrete types",
+			"scope": [],
+			"settings": {
+				"foreground": "#FFCB6B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope": [],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "statements",
+			"scope": [],
 			"settings": {
 				"foreground": "#49F3C3",
 				"fontStyle": ""
