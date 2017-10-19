@@ -2,12 +2,12 @@
     "name": "shape-theme",
     "displayName": "Shape Theme",
     "description": "A minimalistic theme designed with the goal of increased readability and reduced visual clutter. The code structure is outlined with a simple set of vibrant colors.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "apk",
     "license": "MIT",
     "icon": "images/icon.png",
     "preview": true,
-    "qna":"https://github.com/apkd/vscode-shape-theme/issues",
+    "qna": "https://github.com/apkd/vscode-shape-theme/issues",
     "author": {
         "name": "apk"
     },
