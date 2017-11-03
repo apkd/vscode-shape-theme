@@ -2,6 +2,7 @@
 	"name": "shape",
 	"type": "dark",
 	"colors": {
+		"editorCodeLens.foreground": "#FFCB6B",
 		"editor.foreground": "#fffeca",
 		"editor.background": "#192434",
 		"activityBar.background": "#131c28",
@@ -87,7 +88,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#5099ab"
 			}
 		},
 		{
@@ -849,7 +850,9 @@
 		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
-			"scope": ["constant.language.unit.fsharp"],
+			"scope": [
+				"constant.language.unit.fsharp"
+			],
 			"settings": {
 				"foreground": "#FF6E89",
 				"fontStyle": "italic"
