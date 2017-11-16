@@ -891,6 +891,29 @@
 			}
 		},
 		////////////////////////////////////////////////////////////////
+		// dockerfile
+		////////////////////////////////////////////////////////////////
+		{
+			"name": "statements",
+			"scope": [
+				"source.dockerfile"
+			],
+			"settings": {
+				"foreground": "#49F3C3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "keywords",
+			"scope": [
+				"source.dockerfile keyword.other.special-method.dockerfile"
+			],
+			"settings": {
+				"foreground": "#FF6E89",
+				"fontStyle": "italic"
+			}
+		},
+		////////////////////////////////////////////////////////////////
 		// template
 		////////////////////////////////////////////////////////////////
 		{
