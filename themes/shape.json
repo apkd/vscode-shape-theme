@@ -914,6 +914,50 @@
 			}
 		},
 		////////////////////////////////////////////////////////////////
+		// log files
+		////////////////////////////////////////////////////////////////
+		{
+			"name": "error",
+			"scope": ["text.log log.error"],
+			"settings": {
+				"foreground": "#FF6E89",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "warning",
+			"scope": ["text.log log.warning"],
+			"settings": {
+				"foreground": "#FFCB6B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "info",
+			"scope": ["text.log log.info", "text.log log.debug"],
+			"settings": {
+				"foreground": "#FFFFFF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "highlights",
+			"scope": ["text.log log.date",
+				"text.log log.constant", "text.log log.string", "text.log log.exception"],
+			"settings": {
+				"foreground": "#49F3C3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "body",
+			"scope": ["text.log"],
+			"settings": {
+				"foreground": "#fffeca",
+				"fontStyle": ""
+			}
+		},
+		////////////////////////////////////////////////////////////////
 		// template
 		////////////////////////////////////////////////////////////////
 		{
