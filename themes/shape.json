@@ -2,6 +2,7 @@
 	"name": "shape",
 	"type": "dark",
 	"colors": {
+		"editorCodeLens.foreground": "#FFCB6B",
 		"editor.foreground": "#fffeca",
 		"editor.background": "#192434",
 		"activityBar.background": "#131c28",
