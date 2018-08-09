@@ -86,7 +86,6 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				,
 				"foreground": "#546E7A"
 			}
 		},
@@ -97,7 +96,6 @@
 				"comment.block.documentation punctuation.definition.tag"
 			],
 			"settings": {
-				,
 				"foreground": "#6C9BAF"
 			}
 		},
@@ -149,8 +147,7 @@
 				"support.type.primitive"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -175,8 +172,7 @@
 				"punctuation.definition.string."
 			],
 			"settings": {
-				"foreground": "#fffeca",
-				
+				"foreground": "#fffeca"
 			}
 		},
 		{
@@ -186,8 +182,6 @@
 				"entity.name.type.type-parameter"
 			],
 			"settings": {
-				// i decided against coloring generic types for now due to
-				// limited support in vscode compared to visual studio
 				"foreground": "#FFCB6B"
 			}
 		},
@@ -268,9 +262,6 @@
 				"foreground": "#b267e6"
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// json
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "key",
 			"scope": [
@@ -285,9 +276,7 @@
 			"scope": [
 				"source.json string.quoted.double.json"
 			],
-			"settings": {
-				
-			}
+			"settings": {}
 		},
 		{
 			"name": "constant",
@@ -298,9 +287,6 @@
 				"foreground": "#FF6E89"
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// markdown
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "heading",
 			"scope": [
@@ -310,8 +296,7 @@
 				"markup.heading.setext.2.markdown"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -349,9 +334,6 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// xml
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "punctuation",
 			"scope": [
@@ -390,13 +372,9 @@
 				"text.xml"
 			],
 			"settings": {
-				"foreground": "#fffeca",
-				
+				"foreground": "#fffeca"
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// shell
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [
@@ -404,8 +382,7 @@
 				"source.shell support.function.builtin"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -428,17 +405,13 @@
 				"foreground": "#49F3C3"
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// powershell
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "functions",
 			"scope": [
 				"source.powershell support.function"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -473,15 +446,11 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// java
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -519,17 +488,13 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// html
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [
 				"text.html entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -576,17 +541,13 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// css
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [
 				"source.css meta.property-list meta.property-name support.type"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -627,9 +588,6 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// batch
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "content",
 			"scope": [
@@ -640,15 +598,11 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// c++
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -688,17 +642,13 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// python
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [
 				"source.python keyword.operator.logical"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -736,10 +686,6 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// javascript
-		// todo: move js-related rules to this section
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [
@@ -748,8 +694,7 @@
 				"string.regexp punctuation.definition.string.end.js"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -793,10 +738,6 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// typescript
-		// todo: move ts-related rules to this section
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [
@@ -804,8 +745,7 @@
 				"source.ts variable.language.this"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -844,17 +784,13 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// f#
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [
 				"constant.language.unit.fsharp"
 			],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
@@ -889,15 +825,11 @@
 				"fontStyle": ""
 			}
 		},
-		////////////////////////////////////////////////////////////////
-		// template
-		////////////////////////////////////////////////////////////////
 		{
 			"name": "keywords",
 			"scope": [],
 			"settings": {
-				"foreground": "#FF6E89",
-				
+				"foreground": "#FF6E89"
 			}
 		},
 		{
