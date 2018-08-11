@@ -6,7 +6,7 @@
     "publisher": "apk",
     "license": "MIT",
     "icon": "images/icon.png",
-    "preview": true,
+    "preview": false,
     "qna": "https://github.com/apkd/vscode-shape-theme/issues",
     "author": {
         "name": "apk"
