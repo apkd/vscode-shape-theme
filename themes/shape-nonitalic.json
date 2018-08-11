@@ -87,7 +87,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#546E7A"
+				"foreground": "#5099ab"
 			}
 		},
 		{
@@ -795,71 +795,73 @@
 			}
 		},
 		{
-			"name": "concrete types",
-			"scope": [],
-			"settings": {
-				"foreground": "#FFCB6B",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "punctuation",
-			"scope": [],
-			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": ""
-			}
-		},
-		{
 			"name": "statements",
-			"scope": [],
+			"scope": [
+				"source.dockerfile"
+			],
 			"settings": {
 				"foreground": "#49F3C3",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "content",
-			"scope": [],
-			"settings": {
-				"foreground": "#fffeca",
 				"fontStyle": ""
 			}
 		},
 		{
 			"name": "keywords",
-			"scope": [],
+			"scope": [
+				"source.dockerfile keyword.other.special-method.dockerfile"
+			],
+			"settings": {
+				"foreground": "#FF6E89",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "error",
+			"scope": [
+				"text.log log.error"
+			],
 			"settings": {
 				"foreground": "#FF6E89"
 			}
 		},
 		{
-			"name": "concrete types",
-			"scope": [],
+			"name": "warning",
+			"scope": [
+				"text.log log.warning"
+			],
 			"settings": {
 				"foreground": "#FFCB6B",
 				"fontStyle": ""
 			}
 		},
 		{
-			"name": "punctuation",
-			"scope": [],
+			"name": "info",
+			"scope": [
+				"text.log log.info",
+				"text.log log.debug"
+			],
 			"settings": {
 				"foreground": "#FFFFFF",
 				"fontStyle": ""
 			}
 		},
 		{
-			"name": "statements",
-			"scope": [],
+			"name": "highlights",
+			"scope": [
+				"text.log log.date",
+				"text.log log.constant",
+				"text.log log.string",
+				"text.log log.exception"
+			],
 			"settings": {
 				"foreground": "#49F3C3",
 				"fontStyle": ""
 			}
 		},
 		{
-			"name": "content",
-			"scope": [],
+			"name": "body",
+			"scope": [
+				"text.log"
+			],
 			"settings": {
 				"foreground": "#fffeca",
 				"fontStyle": ""
